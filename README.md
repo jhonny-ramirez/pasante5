@@ -42,4 +42,4 @@ El proyecto se encuentra elaborado en Angular y se trata de una aplicación web 
 
 # Test unitario
 
-- **Prueba eliminar lugar**: Si tenemos la lista de lugares con un lugar añadido al eliminar el lugar con index 0 deberia estar la lista de lugares vacia.
+- **Prueba eliminar lugar**: Si tenemos la lista de lugares con un lugar añadido al eliminar el lugar con index 0 deberia estar la lista de lugares vacia. Prueba unitaria definida en formulario-guardado-mis-ubicaciones.component.spec.ts
