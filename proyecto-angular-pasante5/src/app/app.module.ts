@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { APP_ROUTING } from './app.routes';
 import { MapaComponent } from './components/mapa/mapa.component';
+import { FormularioGuardadoMisUbicacionesComponent } from './components/formulario-guardado-mis-ubicaciones/formulario-guardado-mis-ubicaciones.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MapaComponent
+    MapaComponent,
+    FormularioGuardadoMisUbicacionesComponent
   ],
   imports: [
     BrowserModule,
