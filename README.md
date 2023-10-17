@@ -38,3 +38,8 @@ El proyecto se encuentra elaborado en Angular y se trata de una aplicación web 
 
 
 ¡Diviértete gestionando tus ubicaciones!
+
+
+# Test unitario
+
+- **Prueba eliminar lugar**: Si tenemos la lista de lugares con un lugar añadido al eliminar el lugar con index 0 deberia estar la lista de lugares vacia.
