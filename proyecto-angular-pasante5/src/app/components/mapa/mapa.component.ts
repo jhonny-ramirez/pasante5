@@ -2,7 +2,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { Feature, Map, View } from 'ol';
 import OSM from 'ol/source/OSM';
 import TileLayer from 'ol/layer/Tile';
-import { fromLonLat } from 'ol/proj';
+import { fromLonLat, transform } from 'ol/proj';
 import Geolocation from 'ol/Geolocation';
 import { toStringXY } from 'ol/coordinate';
 import VectorLayer from 'ol/layer/Vector';
@@ -60,7 +60,8 @@ export class MapaComponent implements OnInit {
 
     mapa.on('click', (event) => {
       const coordenada = event.coordinate;
-      this.latlong.emit(coordenada);
+      const lonLat = transform(coordenada, 'EPSG:3857', 'EPSG:4326');
+      this.latlong.emit(lonLat);
      
       
       let iconFeature = new Feature({
