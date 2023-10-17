@@ -5,20 +5,32 @@
 Este proyecto web en Angular te permite gestionar y guardar ubicaciones, junto con su nombre, descripción y coordenadas geográficas. Utiliza varias librerías y tecnologías para ofrecer esta funcionalidad.
 
 ## Librerías utilizadas
-
-- **@angular/animations**: Versión ~12.2.0
-- **@angular/common**: Versión ~12.2.0
-- **@angular/compiler**: Versión ~12.2.0
-- **@angular/core**: Versión ~12.2.0
-- **@angular/forms**: Versión ~12.2.0
-- **@angular/platform-browser**: Versión ~12.2.0
-- **@angular/platform-browser-dynamic**: Versión ~12.2.0
-- **@angular/router**: Versión ~12.2.0
-- **ol (OpenLayers)**: Versión ^8.1.0
-- **rxjs**: Versión ~6.6.0
-- **sweetalert2**: Versión ^11.7.32
-- **tslib**: Versión ^2.3.0
-- **zone.js**: Versión ~0.11.4
+  - @angular-devkit/build-angular@12.2.18
+  - @angular/animations@12.2.17
+  - @angular/cli@12.2.18
+  - @angular/common@12.2.17
+  - @angular/compiler-cli@12.2.17
+  - @angular/compiler@12.2.17
+  - @angular/core@12.2.17
+  - @angular/forms@12.2.17
+  - @angular/platform-browser-dynamic@12.2.17
+  - @angular/platform-browser@12.2.17
+  - @angular/router@12.2.17
+  - @types/jasmine@3.8.2
+  - @types/node@12.20.55
+  - jasmine-core@3.8.0
+  - karma-chrome-launcher@3.1.1
+  - karma-coverage@2.0.3
+  - karma-jasmine-html-reporter@1.7.0
+  - karma-jasmine@4.0.2
+  - karma@6.3.20
+  - ol@8.1.0
+  - rxjs@6.6.7
+  - sweetalert2@11.7.32
+  - tslib@2.6.2
+  - typescript@4.3.5
+  - zone.js@0.11.8
+  - node 16.16.0
 
 ## Descripción del proyecto
 
