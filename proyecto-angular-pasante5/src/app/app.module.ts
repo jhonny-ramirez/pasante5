@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { APP_ROUTING } from './app.routes';
 import { MapaComponent } from './components/mapa/mapa.component';
 import { FormularioGuardadoMisUbicacionesComponent } from './components/formulario-guardado-mis-ubicaciones/formulario-guardado-mis-ubicaciones.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FormularioGuardadoMisUbicacionesComponent } from './components/formular
     BrowserModule,
     AppRoutingModule,
     APP_ROUTING,
+    FormsModule 
 
   ],
   providers: [],

@@ -1,1 +1,27 @@
-<p>formulario-guardado-mis-ubicaciones works!</p>
+<div class="container">
+  <form (ngSubmit)="guardar()" #miFormulario="ngForm">
+    <div class="form-group">
+      <label for="nombreLugar">Nombre del lugar:</label>
+      <input
+        type="text"
+        id="nombreLugar"
+        name="nombreLugar"
+        class="form-control"
+        [(ngModel)]="lugar.nombreLugar"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="descripcion">Descripción:</label>
+      <textarea
+        id="descripcion"
+        name="descripcion"
+        class="form-control"
+        [(ngModel)]="lugar.descripcion"
+        required
+      ></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+  </form>
+</div>
+<app-mapa (latlong)="recibirValorDelHijo($event)"></app-mapa>
