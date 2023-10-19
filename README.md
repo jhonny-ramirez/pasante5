@@ -49,3 +49,8 @@ El proyecto se encuentra elaborado en Angular y se trata de una aplicación web 
 - **Tecnologías adicionales**: Además de las librerías de Angular mencionadas, el proyecto utiliza Bootstrap para estilizar la interfaz de usuario, FontAwesome para los íconos, SweetAlert para confirmar acciones del usuario y OpenStreetMap para la visualización de mapas.
 
 ¡Diviértete gestionando tus ubicaciones!
+
+
+# Descripcion test unitario
+
+- **Prueba eliminar lugar**: Si tenemos la lista de lugares con un lugar añadido al eliminar el lugar con index 0 deberia estar la lista de lugares vacia. Prueba unitaria definida en formulario-guardado-mis-ubicaciones.component.spec.ts
